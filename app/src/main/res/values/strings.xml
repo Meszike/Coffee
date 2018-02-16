@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Coffee</string>
+    <string name="name">My Little Melbourne Coffee \n
+        and Brew Bar</string>
+    <string name="address">1075, Budapest, Madách Imre út 3</string>
+    <string name="phone">+36 70 394 7002</string>
+    <string name="url">http://mylittlemelbourne.hu/</string>
+    <string name="description">The 1st Specialty Coffee Shop In Hungary</string>
+    <string name="BusinessHours">Business hours:</string>
+    <string name="days">Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday</string>
+    <string name="hours">7:00–19:00\n7:00–19:00\n7:00–19:00\n7:00–19:00\n7:00–19:00\n8:30–19:00\n8:30–19:00</string>
+</resources>

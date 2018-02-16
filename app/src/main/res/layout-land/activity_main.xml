@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.popey.coffee.MainActivity">
+
+    <LinearLayout style="@style/LinearLayout1">
+
+
+        <ImageView
+            style="@style/ImageView"
+            android:src="@drawable/coffee" />
+
+        <TextView
+            style="@style/TextView1LAnd"
+            android:text="@string/name" />
+
+        <LinearLayout style="@style/LinearLayout2">
+
+            <ImageView
+                style="@style/ImageView2"
+                android:src="@drawable/map" />
+
+            <TextView
+                style="@style/TextView2"
+                android:autoLink="map"
+                android:text="@string/address" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayout2">
+
+            <ImageView
+                style="@style/ImageView2"
+                android:src="@drawable/tel" />
+
+            <TextView
+                style="@style/TextView2"
+                android:autoLink="phone"
+                android:text="@string/phone" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayout2">
+
+            <ImageView
+                style="@style/ImageView2"
+                android:src="@drawable/nagy" />
+
+            <TextView
+                style="@style/TextView2"
+                android:autoLink="web"
+                android:text="@string/url" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextView3"
+            android:text="@string/description" />
+
+        <LinearLayout
+            style="@style/LinearLayout2"
+            android:layout_marginBottom="@dimen/material_margin_1"
+            android:layout_marginTop="@dimen/material_margin_3">
+
+            <TextView
+                style="@style/TextView4"
+                android:text="@string/BusinessHours" />
+
+            <TextView
+                style="@style/TextView5"
+                android:text="@string/days"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/TextView5"
+                android:text="@string/hours" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
