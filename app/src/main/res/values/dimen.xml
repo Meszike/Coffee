@@ -4,8 +4,9 @@
     <dimen name="material_margin_2">10dp</dimen>
     <dimen name="material_margin_3">18dp</dimen>
     <dimen name="material_margin_4">20dp</dimen>
-    <dimen name="material_text_size_1">16dp</dimen>
-    <dimen name="material_text_size_2">18dp</dimen>
-    <dimen name="material_text_size_3">24dp</dimen>
+    <dimen name="bigSize">150dp</dimen>
+    <dimen name="material_text_size_1">16sp</dimen>
+    <dimen name="material_text_size_2">18sp</dimen>
+    <dimen name="material_text_size_3">24sp</dimen>
 
 </resources>
